@@ -1,0 +1,47 @@
+window.tilejson = {
+"bounds": [
+6.839,
+-1.7356,
+35.5353,
+17.0568
+],
+"center": [
+19.6655,
+5.4629,
+8
+],
+"description": "car_microsites",
+"download": "http:\/\/a.tiles.mapbox.com\/v3\/reliefweb.66vzehfr.mbtiles",
+"filesize": 1200128,
+"format": "png",
+"grids": [
+"http:\/\/a.tiles.mapbox.com\/v3\/reliefweb.66vzehfr\/{z}\/{x}\/{y}.grid.json",
+"http:\/\/b.tiles.mapbox.com\/v3\/reliefweb.66vzehfr\/{z}\/{x}\/{y}.grid.json"
+],
+"id": "reliefweb.66vzehfr",
+"legend": "",
+"maxzoom": 8,
+"minzoom": 6,
+"name": "car_onepager1",
+"private": true,
+"scheme": "xyz",
+"template": "{{#__location__}}{{\/__location__}}{{#__teaser__}}<strong> <FONT COLOR=\"#f47932\">{{{IDPS}}} <\/FONT> <\/strong> thousand IDPs in <strong> {{{PREF_NOM}}} <\/strong>{{\/__teaser__}}{{#__full__}}{{\/__full__}}",
+"tilejson": "2.0.0",
+"tiles": [
+"http:\/\/a.tiles.mapbox.com\/v3\/reliefweb.66vzehfr\/{z}\/{x}\/{y}.png",
+"http:\/\/b.tiles.mapbox.com\/v3\/reliefweb.66vzehfr\/{z}\/{x}\/{y}.png"
+],
+"version": "1.0.0",
+"webpage": "http:\/\/a.tiles.mapbox.com\/v3\/reliefweb.66vzehfr\/page.html",
+"options": [
+"geocoder",
+"share",
+"zoompan",
+"zoomwheel"
+]
+};
+window.account = {
+"id": "reliefweb",
+"name": "ReliefWeb",
+"avatar": "https:\/\/www.gravatar.com\/avatar\/206cc903992233a0925a96626ff9ed54.jpg?d=mm"
+};
